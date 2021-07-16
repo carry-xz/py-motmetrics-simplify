@@ -12,7 +12,7 @@ Original Py-Motmetrics is not very easy to use. So I have a simplified package.
 #### PyPi and development installs
 
 ```
-git clone [url to this repo]
+git clone https://github.com/carry-xz/py-motmetrics-simplify
 cd py-motmetrics 
 pip install -e . 
 ```
