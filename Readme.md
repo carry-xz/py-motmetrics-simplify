@@ -4,7 +4,7 @@
 
 ## py-motmetrics[simplify]
 
-Original py-motmetrics is not very easy to use. So I have a simplified package. 
+Original py-motmetrics is not very easy to use. So I have a simplified package. have fun!
 
 
 ### Installation
@@ -18,9 +18,6 @@ pip install -e .
 ```
 
 ### Usage
-
-#### Populating the accumulator
-
 ```python
 import motmetrics as mm
 
