@@ -91,7 +91,6 @@ def compare_data_txt(gts_txt, dts_txt, distth=0.5, fmt='mot16'):
     metrics = [x for x in metrics if not x.startswith('id')]
     summary = mh.compute_many([accs], metrics=metrics, generate_overall=True)
     print(mm.io.render_summary(summary, formatters=mh.formatters, namemap=mm.io.motchallenge_metric_names))
-    print(summary)
     return summary
 
 def compare_data_list(gts, dts, distth=0.5, fmt='mot16', conf_ind=6):
