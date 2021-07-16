@@ -4,7 +4,7 @@
 
 ## py-motmetrics[simplify]
 
-Original Py-Motmetrics is not very easy to use. So I have a simplified package.
+Original py-motmetrics is not very easy to use. So I have a simplified package. 
 
 
 ### Installation
