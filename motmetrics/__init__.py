@@ -22,6 +22,7 @@ __all__ = [
     'metrics',
     'utils',
     'MOTAccumulator',
+    'simpeval'
 ]
 
 from motmetrics import distances
@@ -30,6 +31,7 @@ from motmetrics import lap
 from motmetrics import metrics
 from motmetrics import utils
 from motmetrics.mot import MOTAccumulator
+from motmetrics.apps import simpeval
 
 # Needs to be last line
 __version__ = '1.2.0'
